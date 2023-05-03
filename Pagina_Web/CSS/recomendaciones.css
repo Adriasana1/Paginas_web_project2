@@ -1,0 +1,60 @@
+
+.contenedor {
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center; /* Agregar esta línea */
+	height: 100%;
+}
+
+.tienda {
+	width: 30%;
+	height: 70%;
+	margin: 0 10px;
+	margin-bottom: 30px;
+	display: inline-block; /* Agregar esta línea */
+	vertical-align: top; /* Agregar esta línea */
+	padding: 15px;
+    background: white;
+    border-radius: 20px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.imagenmaslogos{
+	max-width: 300px;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.imagenmaslogo a img{
+	width: 100%;
+	height: 400px;
+	object-fit: contain;
+}
+
+
+.tienda h2 {
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-size: 24px;
+}
+
+.redes {
+	margin-top: 10px;
+}
+
+.redes a {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.redes img {
+	max-width: 30px;
+}
+h2{
+	text-align: center;
+	font-size: 1.5rem;
+	color: rgb(32, 58, 97);
+	text-shadow: 2px 2px 4px #fff;
+	margin-top: 20px;
+}

@@ -1,0 +1,57 @@
+.contacto {
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .contacto a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 30px;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .contacto a:hover {
+    text-decoration: underline;
+  }
+
+  .redes-sociales {
+    display: flex;
+    align-items: center;
+  }
+
+  .redes-sociales a {
+      color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+    margin: 30px 20px;
+  }
+
+  .redes-sociales a:hover {
+    text-decoration: underline;
+    background-color: #333;
+    color: #fff;
+    transform: scale(1.2);
+  }
+
+  .redes-sociales a img{
+    width: 80px;
+  }
+
+  .twitter-timeline{
+    visibility: hidden;
+  }
+
+  .twitter-timeline:hover{
+        visibility: visible;
+        border-radius: 50%;
+        margin: 0 30px;
+        width: 500px;
+        height: 500px;
+      }
+  

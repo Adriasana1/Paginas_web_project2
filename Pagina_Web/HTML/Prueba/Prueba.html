@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Custom Twitter Popup : anl4u.com</title></head>
+<body>
+<div>What would you like to twit about us.</div>
+<input type="text" name="twitter_text" id="twitter_text_id" value="Enter any text/link here!" />
+<div><input type='image' value='https://twitter.com/intent/tweet' id="twitter_popup" src='twit.png'></div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</body>
+</html>
+
+<script>
+$(document).ready(function(){
+$('#twitter_popup').live("click", function(event) {
+
+var input_msg = document.getElementById('twitter_text_id').value;
+var msg = "?text=" + encodeURIComponent(input_msg);
+var tag = encodeURIComponent(" #anl4u.com");
+var msg_tag = msg + tag;
+
+var width  = 575,
+height = 430,
+left   = ($(window).width()  - width)  / 2,
+top    = ($(window).height() - height) / 2,
+url    = this.value + msg_tag,
+opts   = 'status=1' +
+',width='  + width  +
+',height=' + height +
+',top='    + top    +
+',left='   + left;
+
+window.open(url, 'twitter', opts);
+return false;
+});
+});
+</script>
+ 
