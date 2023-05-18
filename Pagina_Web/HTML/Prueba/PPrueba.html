@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .image {
+      width: 100px;
+    }
+
+    .text {
+      width: calc(100% - 120px);
+    }
+
+    .text-reverse {
+      order: -1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="ruta_de_la_imagen" alt="Imagen" class="image">
+    <p class="text">Texto a la derecha</p>
+  </div>
+
+  <div class="container">
+    <p class="text text-reverse">Texto a la izquierda</p>
+    <img src="ruta_de_la_imagen" alt="Imagen" class="image">
+  </div>
+</body>
+</html>

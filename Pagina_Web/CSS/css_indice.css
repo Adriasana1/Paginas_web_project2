@@ -1,35 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
-*{
+
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
+	font-family: 'Montserrat', sans-serif;
 	background-size: cover;
 	height: 100vh;
 	backdrop-filter: blur(6px);
 	-webkit-backdrop-filter: blur(5px);
-	background-color:rgba(51, 107, 122, 0.637)
-
+	background-color: rgba(51, 107, 122, 0.637)
 }
+
 #caixa {
-    background-color: #838e83a1;
+	background-color: #838e83a1;
 	height: 100vh;
 	width: 100%;
 }
+
 header {
-	background-color:#838e83;
+	background-color: #838e83;
 	height: 60px;
-    position: relative;
+	position: relative;
 }
 
-.logo{
-    position: absolute;
-    top: 7px;
-    right: 20px;
-    height: 50px;
+.logo {
+	position: absolute;
+	top: 7px;
+	right: 20px;
+	height: 50px;
 }
 
 
@@ -71,14 +73,16 @@ h1 {
 	color: #333;
 	text-shadow: 2px 2px 4px #fff;
 }
-.logo2{
-    position: absolute;
-    top: 60%;
-    align-items: center;
-    left: 700px;
-    height: 500px;
+
+.logo2 {
+	position: absolute;
+	top: 60%;
+	align-items: center;
+	left: 700px;
+	height: 500px;
 }
-#tope{
+
+#tope {
 	text-align: center;
 }
 
@@ -91,15 +95,54 @@ p {
 	margin-left: 5%;
 	margin-right: 5%;
 }
-#intro{
-    margin-left: 20%;
-    margin-right: 20%;
-	
+
+#intro {
+	margin-left: 20%;
+	margin-right: 20%   ;
+	text-align: center;
+
 }
 
-.abajo{
-	bottom:100%;
+.container {
+	align-items: center;
+	width: 100%;
+	margin: 0 auto;
 }
+
+.container_b {
+	width: 100%;
+	margin-top: 80%;
+	margin: 0 auto;
+}
+
+.imagen-reverse {
+	float: auto;
+	margin-left: 30px;
+	margin-right: 100px;
+	width: 20%;
+}
+
+.imagen {
+	margin-left: 5%;
+	margin-right: 100px;
+	width: 20%;
+	float: left;
+	margin-right: 30px;
+	border: 3px solid rgb(0, 0, 0);
+}
+
+.imagen:hover {
+	filter: saturate(180%);
+}
+
+.imagen-reverse:hover {
+	filter: saturate(180%);
+}
+
+.abajo {
+	bottom: 100%;
+}
+
 .aviso-cookies {
 	display: none;
 	background: rgb(220, 221, 142);
@@ -113,7 +156,7 @@ p {
 	left: 20px;
 	z-index: 100;
 	padding-top: 60px;
-	box-shadow: 0px 2px 20px 10px rgba(222,222,222,.25);
+	box-shadow: 0px 2px 20px 10px rgba(222, 222, 222, .25);
 	text-align: center;
 }
 
@@ -165,7 +208,7 @@ p {
 
 .fondo-aviso-cookies {
 	display: none;
-	background: rgba(0,0,0,.20);
+	background: rgba(0, 0, 0, .20);
 	position: fixed;
 	z-index: 99;
 	width: 100vw;
